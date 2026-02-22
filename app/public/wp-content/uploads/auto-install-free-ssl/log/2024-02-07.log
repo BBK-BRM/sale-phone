@@ -1,0 +1,94 @@
+2024-02-07 12:13:20 [error] cURL error 7: Failed to connect to 127.0.0.1 port 2083 after 0 ms: Couldn't connect to server
+
+ File: /Users/bibekbaram/Local Sites/sale-phone/app/public/wp-content/plugins/auto-install-free-ssl/FreeSSLAuto/src/Admin/Factory.php
+ Line number: 369
+
+
+
+2024-02-07 12:13:20 [error] cURL error 7: Failed to connect to sale-phone.local port 2083 after 0 ms: Couldn't connect to server
+
+ File: /Users/bibekbaram/Local Sites/sale-phone/app/public/wp-content/plugins/auto-install-free-ssl/FreeSSLAuto/src/Admin/Factory.php
+ Line number: 369
+
+
+
+2024-02-07 12:13:21 [error] cURL error 7: Failed to connect to sale-phone.local port 2083 after 1 ms: Couldn't connect to server
+
+ File: /Users/bibekbaram/Local Sites/sale-phone/app/public/wp-content/plugins/auto-install-free-ssl/FreeSSLAuto/src/Admin/Factory.php
+ Line number: 369
+
+
+
+2024-02-07 12:14:34 [info] /Users/bibekbaram/Local Sites/sale-phone/app/public is offline. Skipping it.
+
+2024-02-07 12:14:34 [info] Starting new account registration
+
+2024-02-07 12:14:34 [info] Sending registration to the Let's Encrypt™ server
+
+2024-02-07 12:14:38 [info] Sending signed request to https://acme-v02.api.letsencrypt.org/acme/new-acct
+
+2024-02-07 12:14:39 [info] kid: https://acme-v02.api.letsencrypt.org/acme/acct/1558377537
+
+2024-02-07 12:14:39 [info] Congrats! A new account has been registered successfully.
+
+2024-02-07 12:14:39 [info] Generating SSL for sale-phone.local
+
+2024-02-07 12:14:39 [info] The domains array is given below: 
+
+2024-02-07 12:14:39 [info] <pre>Array
+(
+    [0] =&gt; sale-phone.local
+    [1] =&gt; www.sale-phone.local
+)
+</pre>
+
+2024-02-07 12:14:39 [info] Starting the SSL certificate generation process with ACME V2
+
+2024-02-07 12:14:39 [info] Requesting challenges for the array of domains
+
+2024-02-07 12:14:42 [info] Sending signed request to https://acme-v02.api.letsencrypt.org/acme/new-order
+
+2024-02-07 12:14:43 [error] Sorry, the Let's Encrypt™ server response (400) is unexpected. The complete server response is given below.
+
+2024-02-07 12:14:43 [error] <pre>Array
+(
+    [type] =&gt; urn:ietf:params:acme:error:rejectedIdentifier
+    [detail] =&gt; Error creating new order :: Cannot issue for "sale-phone.local": Domain name does not end with a valid public suffix (TLD) (and 1 more problems. Refer to sub-problems for more information.)
+    [status] =&gt; 400
+    [subproblems] =&gt; Array
+        (
+            [0] =&gt; Array
+                (
+                    [type] =&gt; urn:ietf:params:acme:error:malformed
+                    [detail] =&gt; Error creating new order :: Domain name does not end with a valid public suffix (TLD)
+                    [status] =&gt; 400
+                    [identifier] =&gt; Array
+                        (
+                            [type] =&gt; dns
+                            [value] =&gt; sale-phone.local
+                        )
+
+                )
+
+            [1] =&gt; Array
+                (
+                    [type] =&gt; urn:ietf:params:acme:error:malformed
+                    [detail] =&gt; Error creating new order :: Domain name does not end with a valid public suffix (TLD)
+                    [status] =&gt; 400
+                    [identifier] =&gt; Array
+                        (
+                            [type] =&gt; dns
+                            [value] =&gt; www.sale-phone.local
+                        )
+
+                )
+
+        )
+
+)
+</pre>
+
+2024-02-07 12:14:43 [error] Closing the connection
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
